@@ -6,6 +6,7 @@ $a = new Users();
 $res = $a->list();
 $res2 = $a->findId(1);
 $res3 = $a->findPassId(1,1);
-$res4 = $a->permission(3);
+$res4 = $a->permission(2);
+$res5 = $a->listUsersXRols();
 
-var_dump($res4);
+var_dump($res5);
